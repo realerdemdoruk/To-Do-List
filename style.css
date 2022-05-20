@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2f2f2;
+}
+
+#title{
+    color: orange;
+    font-size: 4rem;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;    
+}
+
+#input{
+    margin-top: 4rem;
+    height: 2rem;
+    border-radius: 25px;
+    border: 3px solid dodgerblue;
+    outline: none;
+}
+
+#yazilacaklar{
+    margin-top: 5rem;  
+}
+
+p{  font-size: 40px;
+    margin-top: 0.5rem;
+    color: lightcoral;
+}
+
+.btn:hover{
+    background-color: orange;
+    transition: 0.75s;
+    border-color: dodgerblue;
+}
+
+.btn{
+    width: 10%;
+    height: 3rem;
+    border-radius: 25px;
+    outline: none;
+    background-color: dodgerblue;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer; 
+}
