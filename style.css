@@ -9,15 +9,16 @@ body{
     background-color: #f2f2f2;
 }
 
-#title{
-    color: orange;
-    font-size: 4rem;
-}
 
 .container{
     width: 100%;
     text-align: center;
     margin-top: 100px;    
+}
+
+#title{
+    color: orange;
+    font-size: 4rem;
 }
 
 #input{
